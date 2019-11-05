@@ -1,0 +1,82 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background: LINEAR-GRADIENT(TO RIGHT, RGB(71, 122, 184), RGB(26, 230, 153));
+}
+
+.main {
+  background-color: white;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  font: Roboto;
+}
+
+#to-do-form input {
+  background-color: rgb(27, 112, 137);
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+#to-do-form input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#to-do-form input:focus, #to-do-form button:focus {
+  outline: none;
+}
+
+#to-do-form button {
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/**** ---------------  CSS for ListItems component ----------------- ****/
+.item {
+  margin: 0 auto;
+  color: #fff;
+  width: 300px;
+  height: 50px;
+  background: LINEAR-GRADIENT(TO RIGHT, RGB(71, 122, 184), RGB(26, 230, 153));
+  border-radius: 5px;
+}
+
+.item p {
+  padding: 10px;
+  position: relative;
+}
+
+.item p span {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.faicons {
+  margin: 0 5px;
+  font-size: 15px;
+}
+
+.item p input {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+}
+
+.item p input:focus {
+  outline: none;
+}
