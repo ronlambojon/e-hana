@@ -1,3 +1,5 @@
+RON LAMBOJON - DONE!
+
 # Code Challenge
 
 The goal of this challenge is to get to know your familiarity building ReactJS Application.
